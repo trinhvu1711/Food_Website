@@ -7,3 +7,152 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 0.88rem;
+    background-color: #f6f6f9;
+    user-select: none;
+
+}
+
+a {
+    color: #363949;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background: url(.png), linear-gradient(113.68deg, #007458 1.13%, rgba(122, 16, 124, 0) 95.52%);
+    justify-content: center;
+    gap: 40px;
+    flex: 1 auto;
+}
+
+aside {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+aside .top {
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #f6f6f9;
+}
+
+aside .profile {
+    display: flex;
+    gap: 0.8rem;
+}
+
+aside .profile img {
+    width: 7rem;
+    height: 7rem;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: #E55C75;
+    background-color: #363949;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.sidebar a i {
+    font-size: 1.6rem;
+    margin-right: 10px;
+}
+
+main {
+    background-color: white;
+    border-radius: 20px;
+    width: 70vh;
+    margin: 20px 0;
+    flex-grow: 1;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ED94A4;
+    border-radius: 20px;
+}
+
+.nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav .logo img {
+    width: auto;
+    height: 2.5rem;
+    margin-right: 20px;
+}
+
+.nav a {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+main .content {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.content .item {
+    max-width: 40%;
+    flex: 0 0 40%;
+    min-height: 280px;
+    width: 200px;
+    background: #94A9EB;
+    border-radius: 15px;
+    margin: 40px 5%;
+}
+
+main .footer {
+    padding: 6px 0;
+    text-align: center;
+    background: #061649;
+    color: #f6f6f9;
+    font-size: 1.5rem;
+}
